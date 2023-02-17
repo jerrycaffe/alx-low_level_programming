@@ -1,11 +1,9 @@
 #include <stdio.h>
 
 
-int main()
+int main(void)
 {
-	char value[] ='\"Programming is like building a multilingual puzzle';
-
-	puts(value);
-	return 0;
+	puts("\"Programming is like building a multilingual puzzle");
+	return (0);
 
 }
