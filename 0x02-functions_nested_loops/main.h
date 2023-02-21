@@ -1,3 +1,4 @@
-#include <stdio.h>
-#include <string.h>
-void printPutChar();
+	#include <stdio.h>i
+	#include <string.h>
+
+	void printPutChar(void);
