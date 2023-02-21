@@ -8,17 +8,20 @@
 
 void printPutChar()
 {
-    char puttie[] = "_putchar";
+    putchar("_");
+    putchar("p");
+    putchar("u");
+    putchar("t");
+    putchar("c");
+    putchar("h");
+    putchar("a");
+    putchar("r");
 
-    for (int count = 0; count < strlen(puttie); count++)
-    {
-        putchar(puttie[count]);
-    }
-    putchar('\n');
 }
 
 int main(void)
 {
     printPutChar();
+    putchar('\n');
     return (0);
 }
