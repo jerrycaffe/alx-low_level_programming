@@ -3,7 +3,7 @@
 /**
  * main - Entry point
  *
- * Description: prints _putchar using prototype
+ * Description: prints printPutChar using prototype
  *
  * Return: Always 0 (Success)
 */
@@ -22,6 +22,7 @@ void printPutChar(void)
 
 int main(void)
 {
+
 	printPutChar();
 	putchar('\n');
 	return (0);
