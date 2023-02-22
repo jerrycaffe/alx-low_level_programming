@@ -3,7 +3,7 @@
 /**
  * main - check the code.
  *
- *print_sign: prints sign based on n
+ *print_sign - prints sign based on n
  *
  *@n: expected param
  *
