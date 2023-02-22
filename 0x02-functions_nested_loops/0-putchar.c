@@ -18,7 +18,13 @@ void printPutChar(void)
 	putchar('a');
 	putchar('r');
 }
-
+/**
+ * main - Entry point
+ *
+ * Description: prints printPutChar using putchar prototype
+ *
+ * Return: Always 0 (Success)
+*/
 int main(void)
 {
 
