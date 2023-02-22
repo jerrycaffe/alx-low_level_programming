@@ -3,7 +3,7 @@
 /**
  * _islower - check for lowercase
  *
- *
+ * @c:input in int
  * Return: returns 1 or always 0 (Success)
 */
 
