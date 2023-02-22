@@ -2,7 +2,7 @@
 
 /**
 * main - Print putchar
-* occu
+* Description: print putchar
 * Return: Always 0.
 */
 
