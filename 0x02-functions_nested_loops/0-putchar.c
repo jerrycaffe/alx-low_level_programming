@@ -7,7 +7,6 @@
  *
  * Return: Always 0 (Success)
 */
-
 void printPutChar(void)
 {
 	putchar('_');
