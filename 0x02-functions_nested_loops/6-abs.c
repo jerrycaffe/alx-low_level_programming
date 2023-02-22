@@ -8,7 +8,7 @@
  * Return: abs of a value
 */
 
-int _int(int n)
+int _abs(int n)
 {
 	if (n < 0)
 	{
