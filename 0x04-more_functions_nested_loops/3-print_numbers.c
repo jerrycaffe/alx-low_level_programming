@@ -9,13 +9,15 @@
 
 void print_numbers(void)
 {
-	int i;
-	i = 0;
+	int num = 0;
 
-	while (i < 10)
-	{
-		_putchar('0' + i);
-		i++;
-	}
+	do {
+		_putchar(num + 48);
+		num++;
+	} while (num >= 0 && num <= 9);
 	_putchar('\n');
 }
+
+
+
+
