@@ -7,7 +7,7 @@
  *
  *@b: input value 2
  *
- *
+ * Return: sum of a and b
 */
 int add(int a, int b)
 {
