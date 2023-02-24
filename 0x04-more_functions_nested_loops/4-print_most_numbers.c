@@ -1,18 +1,20 @@
-#include "main.h"
+
+
+#include"main.h"
 
 /**
- * print_most_numbers - print 0 - 9
- *             without 2 and 4
+ * _islower - function to check if
+ *           character is lowercase
  *
- * Return: Always 0 (Success)
+ * @c: checks input of function
+ *
+ * Return: returns 1 if `c` is lowercase
+ *         otherwise always 0 (Success)
 */
 
-void print_most_numbers(void)
+int _islower(int c)
 {
-	int num = 0;
-	while (num <= 9)
-		if (num != 2 && num != 4)
-			_putchar(num + '0');
-		num++;
-	_putchar('\n');
+	if (c >= 97 && c <= 122)
+		return (1);
+	return (0);
 }
