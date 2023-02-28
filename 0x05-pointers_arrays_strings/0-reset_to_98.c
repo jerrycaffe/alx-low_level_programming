@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * reset_to_98 update a pointer
+ * reset_to_98 - update a pointer
  *
  * @n: input value
  *
