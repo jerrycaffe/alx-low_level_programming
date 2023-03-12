@@ -1,15 +1,14 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-/*
- * main - program main
+/**
+ * main- a program that prints its name
  *
- * @argc: counter c
- * 
- * @argv: arguement v
+ * @argc: holds the number of arguments passed
+ * @argv: array pointer that holds the arguments passed
  *
- * Return: 0
- */
+ * Return: Always 0 (Success)
+*/
 
 int main(int __attribute__((unused)) argc, char *argv[])
 {
